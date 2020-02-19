@@ -3,9 +3,9 @@
 The module can be used as follows:
 
 >$npm install --global albarrync-palindrome
-$vim test.js
-let Phrase = require("albarrync-palindrome");
-let napoleonsLament = new Phrase("Able was I, ere I saw Elba.")
-console.log(napoleonsLament.palindrome());
-$ node test.js
-true
+>$vim test.js
+>let Phrase = require("albarrync-palindrome");
+>let napoleonsLament = new Phrase("Able was I, ere I saw Elba.")
+>console.log(napoleonsLament.palindrome());
+>$ node test.js
+>true
