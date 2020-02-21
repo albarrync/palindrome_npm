@@ -29,9 +29,8 @@ function Phrase(content) {
 
   // Returns the letters in the content.
   this.letters = function letters() {
-    return Array.from(this.content)
-      .filter(c => c.match(/[a-z]/gi))
-      .join("");
+    const lettersRegEx = /[a-z]/gi;
+    return (this.content.match(lettersRegEx) || []).join("");
   };
 
   // Returns true if the phrase is a palindrome, false otherwise.
